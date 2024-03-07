@@ -4,7 +4,7 @@ import CartWidget from './CartWidget';
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="info" expand="lg">
       <Navbar.Brand href="#home">Mi Tienda</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

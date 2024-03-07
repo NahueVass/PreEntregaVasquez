@@ -1,23 +1,22 @@
-/* Estilos Generales */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #4e4e4e;
   color: #333;
   margin: 0;
   padding: 0;
 }
 
-/* Contenedor Principal */
+
 #root {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Encabezado */
+
 .header {
   background-color: #4285f4;
-  color: #fff;
+  color: #161616;
   padding: 10px;
   text-align: center;
 }
@@ -26,19 +25,19 @@ body {
   margin: 0;
 }
 
-/* Navegación */
+
 .navbar {
   background-color: #333;
   padding: 10px;
 }
 
 .navbar a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   margin: 0 10px;
 }
 
-/* Enlaces */
+
 a {
   color: #4285f4;
   text-decoration: none;
@@ -48,9 +47,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Tarjetas de Producto */
+
 .card {
-  background-color: #fff;
+  background-color: #000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-bottom: 20px;
@@ -71,7 +70,7 @@ a:hover {
   padding: 15px;
 }
 
-/* Pie de Página */
+
 .footer {
   background-color: #333;
   color: #fff;
@@ -79,7 +78,7 @@ a:hover {
   text-align: center;
 }
 
-/* Animaciones */
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -89,7 +88,7 @@ a:hover {
   }
 }
 
-/* Media Queries para Dispositivos Pequeños */
+
 @media (max-width: 768px) {
   #root {
     padding: 10px;
