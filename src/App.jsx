@@ -1,12 +1,15 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
-import ProductDetail from './components/ProductDetail';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
+import ProductDetail from "./components/ProductDetail";
+import { QuantityProvider } from "./components/QuantityProvider";
+
+
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <QuantityProvider>
         <NavBar />
         <Switch>
           <Route path="/" exact>
@@ -16,7 +19,7 @@ const App = () => {
             <ProductDetail />
           </Route>
         </Switch>
-      </div>
+      </QuantityProvider>
     </Router>
   );
 };

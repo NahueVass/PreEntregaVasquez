@@ -6,13 +6,9 @@ body {
   padding: 0;
 }
 
-
-#root {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+.row{
+  padding: 5px;
 }
-
 
 .header {
   background-color: #4285f4;
@@ -32,10 +28,11 @@ body {
 }
 
 .navbar a {
-  color: #000000;
+  color: #ffffff; /* Cambiar el color del texto a blanco */
   text-decoration: none;
   margin: 0 10px;
 }
+
 
 
 a {
@@ -69,6 +66,19 @@ a:hover {
 .card-content {
   padding: 15px;
 }
+.button-ver-resumen {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  font-size: 16px; /* Tamaño de fuente del botón */
+  border: none; /* Quita el borde del botón */
+  border-radius: 5px; /* Añade bordes redondeados al botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.button-ver-resumen:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar sobre el botón */
+}
 
 
 .footer {
@@ -94,10 +104,7 @@ a:hover {
     padding: 10px;
   }
 
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-  }
+
 
   .navbar a {
     margin: 10px 0;
